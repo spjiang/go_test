@@ -1,5 +1,5 @@
 
-package api
+package ldap
 
 import (
 	"crypto/tls"

@@ -22,6 +22,16 @@
       <change afterPath="$PROJECT_DIR$/chatroom/server/process/userMgr.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/chatroom/server/process/userProcess.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/chatroom/server/utils/utils.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/ldap_login.go" beforeDir="false" afterPath="$PROJECT_DIR$/ldap/ldap_login.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/channel2/channel2" beforeDir="false" afterPath="$PROJECT_DIR$/channel/channel2/channel2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/channel2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/channel/channel2/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/channel3/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/channel/channel3/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev1/index2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev2/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/index.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldap.go" beforeDir="false" afterPath="$PROJECT_DIR$/ldap/ldap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ldap1.go" beforeDir="false" afterPath="$PROJECT_DIR$/ldap/ldap1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,11 +92,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/channel" />
+      <recent name="$PROJECT_DIR$/ldap" />
+      <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$/chatroom/server" />
       <recent name="$PROJECT_DIR$/chatroom/server/main" />
-      <recent name="$PROJECT_DIR$/tcp/server" />
-      <recent name="$PROJECT_DIR$/dev1" />
-      <recent name="$PROJECT_DIR$/api" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build test/chatroom/server/main">
