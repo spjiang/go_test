@@ -24,7 +24,7 @@
       <change afterPath="$PROJECT_DIR$/chatroom/server/process/userMgr.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/chatroom/server/process/userProcess.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/chatroom/server/utils/utils.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structure /sparsearray/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structure /sparsearray/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +75,7 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/chatroom/client/process" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
@@ -96,7 +96,7 @@
       <recent name="$PROJECT_DIR$/chatroom/server/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build test/chatroom/server/main">
+  <component name="RunManager" selected="Go Build.go build test/data_structure /sparsearray">
     <configuration name="go build test/chatroom/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$" />
@@ -133,22 +133,22 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test/projectusermanage/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build test/data_structure /sparsearray" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/projectusermanage/client/main.go" />
-      <package value="test/projectusermanage/client" />
+      <filePath value="$PROJECT_DIR$/data_structure /sparsearray/main.go" />
+      <package value="test/data_structure /sparsearray" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build test/data_structure /sparsearray" />
         <item itemvalue="Go Build.go build test/chatroom/client/main" />
         <item itemvalue="Go Build.go build test/chatroom/server/main" />
         <item itemvalue="Go Build.go build test/chatroom/client" />
         <item itemvalue="Go Build.go build test/chatroom/server" />
-        <item itemvalue="Go Build.go build test/projectusermanage/client" />
       </list>
     </recent_temporary>
   </component>
@@ -176,26 +176,26 @@
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="644" y="70" key="#go_build_test_(1)/0.23.1440.834@0.23.1440.834" timestamp="1582450175282" />
-    <state width="1398" height="161" key="GridCell.Tab.0.bottom" timestamp="1583163758397">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1358" height="289" key="GridCell.Tab.0.bottom" timestamp="1583232184636">
+      <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1398" height="161" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583163758397" />
-    <state width="1358" height="228" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1582535986790" />
-    <state width="1398" height="161" key="GridCell.Tab.0.center" timestamp="1583163758396">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="289" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583207010518" />
+    <state width="1358" height="289" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1583232184636" />
+    <state width="1358" height="289" key="GridCell.Tab.0.center" timestamp="1583232184635">
+      <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1398" height="161" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583163758396" />
-    <state width="1358" height="228" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1582535986790" />
-    <state width="1398" height="161" key="GridCell.Tab.0.left" timestamp="1583163758395">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="289" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583207010517" />
+    <state width="1358" height="289" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1583232184635" />
+    <state width="1358" height="289" key="GridCell.Tab.0.left" timestamp="1583232184634">
+      <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1398" height="161" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583163758395" />
-    <state width="1358" height="228" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1582535986789" />
-    <state width="1398" height="161" key="GridCell.Tab.0.right" timestamp="1583163758396">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="289" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583207010516" />
+    <state width="1358" height="289" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1583232184634" />
+    <state width="1358" height="289" key="GridCell.Tab.0.right" timestamp="1583232184635">
+      <screen x="0" y="23" width="1440" height="834" />
     </state>
-    <state width="1398" height="161" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583163758396" />
-    <state width="1358" height="228" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1582535986790" />
+    <state width="1398" height="289" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583207010517" />
+    <state width="1358" height="289" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1583232184635" />
     <state x="446" y="60" key="SettingsEditor" timestamp="1582076746676">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
