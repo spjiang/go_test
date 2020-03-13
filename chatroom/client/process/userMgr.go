@@ -9,7 +9,6 @@ import (
 var onlineUsers = make(map[int]*message.User, 10)
 var CurUser model.CurUser
 
-
 // 编写一个方法，处理返回的 NotifyUserStatus
 func updateUserStatus(notifyUserStatusMes *message.NotifyUserStatusMes) {
 	user, ok := onlineUsers[notifyUserStatusMes.UserId]

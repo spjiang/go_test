@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8f469a0-d3f7-4554-a6d5-8fa0088e3b26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data_structure /binarytree/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chatroom/client/process/userMgr.go" beforeDir="false" afterPath="$PROJECT_DIR$/chatroom/client/process/userMgr.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chatroom/client/process/userProcess.go" beforeDir="false" afterPath="$PROJECT_DIR$/chatroom/client/process/userProcess.go" afterDir="false" />
@@ -164,10 +163,10 @@
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="644" y="70" key="#go_build_test_(1)/0.23.1440.834@0.23.1440.834" timestamp="1582450175282" />
-    <state x="312" y="50" key="CommitChangelistDialog2" timestamp="1584118178857">
+    <state x="312" y="50" key="CommitChangelistDialog2" timestamp="1584119674312">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="312" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584118178857" />
+    <state x="312" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584119674312" />
     <state width="1398" height="189" key="GridCell.Tab.0.bottom" timestamp="1584119663582">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

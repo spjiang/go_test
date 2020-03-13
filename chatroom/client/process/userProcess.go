@@ -162,7 +162,6 @@ func (u *UserProcess) Login(userId int, userPwd string) (err error) {
 		CurUser.UserId = userId
 		CurUser.UserStatus = message.UserOnline
 
-
 		// 这里我们还需要在客户端启动一个协程
 		// 该协程保持和服务器端的通讯，如果服务器有数据推送给客户端
 		// 则接受并显示在客户端的终端
