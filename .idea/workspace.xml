@@ -2,41 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8f469a0-d3f7-4554-a6d5-8fa0088e3b26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chatroom/client/main/client" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatroom/client/main/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatroom/client/model/curUser.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatroom/client/process/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatroom/client/process/smsMgr.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatroom/client/process/smsProcess.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatroom/client/process/userMgr.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatroom/client/process/userProcess.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatroom/client/utils/utils.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatroom/common/message.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatroom/common/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatroom/server/main/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatroom/server/main/processor.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatroom/server/main/redis.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatroom/server/main/server" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatroom/server/model/error.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatroom/server/model/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatroom/server/model/userDao.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatroom/server/process/smsProcess.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatroom/server/process/userMgr.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatroom/server/process/userProcess.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatroom/server/utils/utils.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structure /circlesinglelink/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structure /doublelink/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structure /expstack/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structure /hashtable/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structure /insertsort/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structure /josephu/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structure /quicksort/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structure /selectsort/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structure /singelink/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structure /stack/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_structure /test/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_structure /binarytree/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structure /circequeue/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure /circequeue/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatroom/client/process/userMgr.go" beforeDir="false" afterPath="$PROJECT_DIR$/chatroom/client/process/userMgr.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatroom/client/process/userProcess.go" beforeDir="false" afterPath="$PROJECT_DIR$/chatroom/client/process/userProcess.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatroom/common/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/chatroom/common/user.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +50,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
@@ -107,7 +78,16 @@
       <recent name="$PROJECT_DIR$/chatroom/server/main" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build test/data_structure /hashtable">
+  <component name="RunManager" selected="Go Build.go build test/data_structure /binarytree">
+    <configuration name="go build test/data_structure /binarytree" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/data_structure /binarytree/main.go" />
+      <package value="test/data_structure /binarytree" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build test/data_structure /expstack" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$" />
@@ -135,15 +115,6 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test/data_structure /selectsort" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/data_structure /selectsort/main.go" />
-      <package value="test/data_structure /selectsort" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build test/data_structure /stack" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$" />
@@ -155,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build test/data_structure /binarytree" />
         <item itemvalue="Go Build.go build test/data_structure /hashtable" />
         <item itemvalue="Go Build.go build test/data_structure /expstack" />
         <item itemvalue="Go Build.go build test/data_structure /stack" />
         <item itemvalue="Go Build.go build test/data_structure /insertsort" />
-        <item itemvalue="Go Build.go build test/data_structure /selectsort" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +139,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="go" />
+    <option name="LAST_COMMIT_MESSAGE" value="go" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -191,28 +164,32 @@
       <screen x="0" y="23" width="1440" height="834" />
     </state>
     <state x="644" y="70" key="#go_build_test_(1)/0.23.1440.834@0.23.1440.834" timestamp="1582450175282" />
-    <state width="1398" height="189" key="GridCell.Tab.0.bottom" timestamp="1584118124200">
+    <state x="312" y="50" key="CommitChangelistDialog2" timestamp="1584118178857">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584118124200" />
+    <state x="312" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584118178857" />
+    <state width="1398" height="189" key="GridCell.Tab.0.bottom" timestamp="1584119663582">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584119663582" />
     <state width="1398" height="345" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1583760480551" />
     <state width="1358" height="289" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1583232184636" />
-    <state width="1398" height="189" key="GridCell.Tab.0.center" timestamp="1584118124197">
+    <state width="1398" height="189" key="GridCell.Tab.0.center" timestamp="1584119663581">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584118124197" />
+    <state width="1398" height="189" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584119663581" />
     <state width="1398" height="345" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1583760480550" />
     <state width="1358" height="289" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1583232184635" />
-    <state width="1398" height="189" key="GridCell.Tab.0.left" timestamp="1584118124196">
+    <state width="1398" height="189" key="GridCell.Tab.0.left" timestamp="1584119663581">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584118124194" />
+    <state width="1398" height="189" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584119663581" />
     <state width="1398" height="345" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1583760480549" />
     <state width="1358" height="289" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1583232184634" />
-    <state width="1398" height="189" key="GridCell.Tab.0.right" timestamp="1584118124200">
+    <state width="1398" height="189" key="GridCell.Tab.0.right" timestamp="1584119663582">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584118124198" />
+    <state width="1398" height="189" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584119663582" />
     <state width="1398" height="345" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1583760480550" />
     <state width="1358" height="289" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1583232184635" />
     <state x="446" y="40" key="SettingsEditor" timestamp="1583807668105">
@@ -220,6 +197,10 @@
     </state>
     <state x="446" y="40" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583807668105" />
     <state x="446" y="60" key="SettingsEditor/0.23.1440.834@0.23.1440.834" timestamp="1582076746676" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1584118181643">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584118181643" />
     <state x="600" y="185" width="673" height="472" key="find.popup" timestamp="1582077323265">
       <screen x="0" y="23" width="1440" height="834" />
     </state>
