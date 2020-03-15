@@ -11,7 +11,7 @@ type Hero struct {
 
 // 前序遍历【先输出root结点，然后在输出左子树，在输出右子树】
 func PreOrder(node *Hero) {
-	// zzz
+	// zzzsss
 	if node != nil {
 		fmt.Printf("no=%d, name=%s\n", node.No, node.Name)
 		PreOrder(node.Left)
