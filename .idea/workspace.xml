@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8f469a0-d3f7-4554-a6d5-8fa0088e3b26" name="Default Changelist" comment="go">
+      <change afterPath="$PROJECT_DIR$/coroutine/Pipe/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/http/client/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2/http/server/http.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urfave/cli/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structure /binarytree/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/data_structure /binarytree/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/mail/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/index.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/index.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/main2.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,12 +63,19 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data_structure " />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test2/http/server" />
+      <recent name="$PROJECT_DIR$/channel" />
+      <recent name="$PROJECT_DIR$/ldap" />
+      <recent name="$PROJECT_DIR$/test" />
+      <recent name="$PROJECT_DIR$/chatroom/server" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data_structure " />
       <recent name="$PROJECT_DIR$/data_structure /circequeue" />
@@ -67,67 +83,60 @@
       <recent name="$PROJECT_DIR$/chatroom/client/process" />
       <recent name="$PROJECT_DIR$/chatroom/common" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/channel" />
-      <recent name="$PROJECT_DIR$/ldap" />
-      <recent name="$PROJECT_DIR$/test" />
-      <recent name="$PROJECT_DIR$/chatroom/server" />
-      <recent name="$PROJECT_DIR$/chatroom/server/main" />
-    </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build test/data_structure /binarytree">
-    <configuration name="go build test/data_structure /binarytree" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build test/urfave/cli">
+    <configuration name="go build test/coroutine/Pipe" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/data_structure /binarytree/main.go" />
-      <package value="test/data_structure /binarytree" />
+      <filePath value="$PROJECT_DIR$/coroutine/Pipe/main.go" />
+      <package value="test/coroutine/Pipe" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test/data_structure /expstack" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build test/package" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/data_structure /expstack/main.go" />
-      <package value="test/data_structure /expstack" />
+      <filePath value="$PROJECT_DIR$/package/main.go" />
+      <package value="test/package" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test/data_structure /hashtable" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build test/test2/http/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/data_structure /hashtable/main.go" />
-      <package value="test/data_structure /hashtable" />
+      <filePath value="$PROJECT_DIR$/test2/http/client/client.go" />
+      <package value="test/test2/http/client" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test/data_structure /insertsort" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build test/test2/http/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/data_structure /insertsort/main.go" />
-      <package value="test/data_structure /insertsort" />
+      <filePath value="$PROJECT_DIR$/test2/http/server/http.go" />
+      <package value="test/test2/http/server" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test/data_structure /stack" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build test/urfave/cli" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/data_structure /stack/main.go" />
-      <package value="test/data_structure /stack" />
+      <filePath value="$PROJECT_DIR$/urfave/cli/main.go" />
+      <package value="test/urfave/cli" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build test/data_structure /binarytree" />
-        <item itemvalue="Go Build.go build test/data_structure /hashtable" />
-        <item itemvalue="Go Build.go build test/data_structure /expstack" />
-        <item itemvalue="Go Build.go build test/data_structure /stack" />
-        <item itemvalue="Go Build.go build test/data_structure /insertsort" />
+        <item itemvalue="Go Build.go build test/urfave/cli" />
+        <item itemvalue="Go Build.go build test/package" />
+        <item itemvalue="Go Build.go build test/coroutine/Pipe" />
+        <item itemvalue="Go Build.go build test/test2/http/client" />
+        <item itemvalue="Go Build.go build test/test2/http/server" />
       </list>
     </recent_temporary>
   </component>
@@ -137,78 +146,33 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="go" />
-    <option name="LAST_COMMIT_MESSAGE" value="go" />
+    <MESSAGE value="go smdla" />
+    <option name="LAST_COMMIT_MESSAGE" value="go smdla" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
     <proxy>https://mirrors.aliyun.com/goproxy/</proxy>
   </component>
   <component name="WindowStateProjectService">
-    <state x="537" y="70" key="#Inspections" timestamp="1583034970028">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="216" key="GridCell.Tab.0.bottom" timestamp="1600610224615">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="537" y="70" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1583034970028" />
-    <state x="537" y="88" key="#Inspections/0.23.1440.834@0.23.1440.834" timestamp="1582076596114" />
-    <state x="475" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583290892050">
-      <screen x="0" y="23" width="1440" height="834" />
+    <state width="1398" height="216" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600497262320" />
+    <state width="1398" height="216" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1600610224615" />
+    <state width="1398" height="216" key="GridCell.Tab.0.center" timestamp="1600610224614">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="475" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.834@0.23.1440.834" timestamp="1583290892050" />
-    <state x="86" y="28" key="#go_build_test" timestamp="1582013572839">
-      <screen x="0" y="23" width="1440" height="834" />
+    <state width="1398" height="216" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600497262319" />
+    <state width="1398" height="216" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1600610224614" />
+    <state width="1398" height="216" key="GridCell.Tab.0.left" timestamp="1600610224613">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="86" y="28" key="#go_build_test/0.23.1440.834@0.23.1440.834" timestamp="1582013572839" />
-    <state x="644" y="70" key="#go_build_test_(1)" timestamp="1582450175282">
-      <screen x="0" y="23" width="1440" height="834" />
+    <state width="1398" height="216" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600497262317" />
+    <state width="1398" height="216" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1600610224613" />
+    <state width="1398" height="216" key="GridCell.Tab.0.right" timestamp="1600610224615">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="644" y="70" key="#go_build_test_(1)/0.23.1440.834@0.23.1440.834" timestamp="1582450175282" />
-    <state x="312" y="50" key="CommitChangelistDialog2" timestamp="1584278889468">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="312" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1584278889468" />
-    <state width="1398" height="189" key="GridCell.Tab.0.bottom" timestamp="1584119663582">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584119663582" />
-    <state width="1398" height="345" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1583760480551" />
-    <state width="1358" height="289" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1583232184636" />
-    <state width="1398" height="189" key="GridCell.Tab.0.center" timestamp="1584119663581">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584119663581" />
-    <state width="1398" height="345" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1583760480550" />
-    <state width="1358" height="289" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1583232184635" />
-    <state width="1398" height="189" key="GridCell.Tab.0.left" timestamp="1584119663581">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584119663581" />
-    <state width="1398" height="345" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1583760480549" />
-    <state width="1358" height="289" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1583232184634" />
-    <state width="1398" height="189" key="GridCell.Tab.0.right" timestamp="1584119663582">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="189" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584119663582" />
-    <state width="1398" height="345" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1583760480550" />
-    <state width="1358" height="289" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1583232184635" />
-    <state x="446" y="40" key="SettingsEditor" timestamp="1583807668105">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="446" y="40" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583807668105" />
-    <state x="446" y="60" key="SettingsEditor/0.23.1440.834@0.23.1440.834" timestamp="1582076746676" />
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1584118181643">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1584118181643" />
-    <state x="600" y="185" width="673" height="472" key="find.popup" timestamp="1582077323265">
-      <screen x="0" y="23" width="1440" height="834" />
-    </state>
-    <state x="600" y="185" width="673" height="472" key="find.popup/0.23.1440.834@0.23.1440.834" timestamp="1582077323265" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1583049845573">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1583049845573" />
-    <state x="667" y="343" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1582077345364">
-      <screen x="0" y="23" width="1440" height="834" />
-    </state>
-    <state x="667" y="343" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.23.1440.834@0.23.1440.834" timestamp="1582077345364" />
+    <state width="1398" height="216" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600497262320" />
+    <state width="1398" height="216" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1600610224615" />
   </component>
 </project>

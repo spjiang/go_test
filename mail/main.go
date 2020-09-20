@@ -1,8 +1,9 @@
 package main
 
 import (
-	"gopkg.in/gomail.v2"
 	"strconv"
+
+	"gopkg.in/gomail.v2"
 )
 
 func SendMail(mailTo []string, subject string, body string) error {

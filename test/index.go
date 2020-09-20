@@ -10,11 +10,11 @@ type Server struct {
 	ServerIP   string `key2:"value2"`
 }
 
-func main() {
+func main2() {
 	s := Server{}
 	st := reflect.TypeOf(s)
-	err:=1
-	if err == 1{
+	err := 1
+	if err == 1 {
 
 	}
 
